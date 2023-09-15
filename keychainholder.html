@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Key Chain Holder</title>
+    <style>
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      footer {
+        background-color: #444;
+        color: #ddd;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 0.9em;
+      }
+
+      h2 {
+        color: #555;
+        border-bottom: 2px solid #aaa;
+        padding-bottom: 5px;
+        margin-top: 20px;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This is an HTML code displaying a Key Chain Holder product with its image -->
+    <header>
+      <h1>Key Chain Holder</h1>
+    </header>
+
+    <main>
+      <img src="keychainholder.jpeg" alt="Key Chain Holder">
+      <p><b><i><u>This key chain holder is designed to be both stylish and functional, making it perfect for organizing your keys in style.</u></i></b></p>
+      <br>
+      <!-- List of main product features -->
+      <ul>
+        <li>Compact and lightweight design</li>
+        <li>Durable material ensures longevity</li>
+        <li>Multiple key slots for organization</li>
+        <li>Elegant finish suitable for all styles</li>
+        <li>Easy to attach and detach keys</li>
+      </ul>
+      <br>
+      <!-- Ordering section -->
+      <h2>Order Your Key Chain Holder Now!</h2>
+      <form>
+        <label for="color">Choose a color:</label>
+        <select name="color" id="color">
+          <option value="black">Black</option>
+          <option value="blue">Blue</option>
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+        </select>
+        <br><br>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit" onclick="alert('Order Confirmed!'); return false;">
+      </form>
+    </main>
+
+    <footer>
+      <p>© 2023 Key Chain Holder. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
